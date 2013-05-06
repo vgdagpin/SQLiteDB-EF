@@ -168,6 +168,9 @@ namespace SQLiteDB_Testing
             return _isEqual;
         }
 
+      
+
+
         private static bool attrIsExcluded(PropertyInfo propertyInfo)
         {
             return Attribute.IsDefined(propertyInfo, typeof(VGD.SQLiteDB.Attributes.Exclude));

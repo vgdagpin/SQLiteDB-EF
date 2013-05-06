@@ -52,7 +52,7 @@ namespace VGD.SQLiteDB
                     if (!_prop.CanWrite) continue;
                     if (attrIsExcluded(_prop)) continue;
 
-                    object _obj = originalDataTable.Rows[i][_prop.Name];                    
+                    object _obj = originalDataTable.Rows[i][_prop.Name];
 
                     setValueTo(_tInstance, _prop, _obj);
                 }
@@ -180,15 +180,28 @@ namespace VGD.SQLiteDB
                     _prop.SetValue(_e, null);
             }
 
-            mainCache.Add(_e);            
+            mainCache.Add(_e);
         }
 
         public void AddRange(IEnumerable<T> TEntityList)
         {
-            addedMultipleData.AddRange(TEntityList);
+            List<T> _elCopy = new List<T>();
 
-            foreach (T _t in TEntityList)
-            {               
+            TEntityList.ToList().ForEach(t =>
+                {
+                    T _tt = Activator.CreateInstance<T>();
+
+                    copyPropertyValues(t, _tt);
+
+                    _elCopy.Add(_tt);
+                });            
+
+            addedMultipleData.AddRange(_elCopy);
+
+            List<T> _el = new List<T>(TEntityList);
+
+            foreach (T _t in _el)
+            {
                 foreach (PropertyInfo _prop in typeof(T).GetProperties())
                 {
                     if (attrIsExcluded(_prop))
@@ -196,7 +209,30 @@ namespace VGD.SQLiteDB
                 }
 
                 mainCache.Add(_t);
-            }            
+            }
+        }
+
+        // Answer from Here http://stackoverflow.com/a/2624858/403971 on cloning the object
+        private void copyPropertyValues(object source, object destination)
+        {
+            var destProperties = destination.GetType().GetProperties();
+
+            foreach (var sourceProperty in source.GetType().GetProperties())
+            {
+                if (!sourceProperty.CanWrite) continue; // added line for read only property
+
+                foreach (var destProperty in destProperties)
+                {
+                    if (destProperty.Name == sourceProperty.Name &&
+                destProperty.PropertyType.IsAssignableFrom(sourceProperty.PropertyType))
+                    {
+                        destProperty.SetValue(destination, sourceProperty.GetValue(
+                            source, new object[] { }), new object[] { });
+
+                        break;
+                    }
+                }
+            }
         }
 
         public void Delete(T TEntity)
@@ -236,7 +272,7 @@ namespace VGD.SQLiteDB
 
                 deletedData.ForEach(t => sqliteDBObj.execute(deleteQueryParser(t)));
 
-                editedData.ToList().ForEach(p => 
+                editedData.ToList().ForEach(p =>
                     {
                         string _editQuery = editQueryParser(p.Key, p.Value);
                         sqliteDBObj.execute(_editQuery);
@@ -351,7 +387,7 @@ namespace VGD.SQLiteDB
             _retValQuery = _retValQuery.Trim(',');
 
             return _retValQuery;
-        }        
+        }
 
         public T Update(T oldEntity, T newEntity)
         {
@@ -491,9 +527,9 @@ namespace VGD.SQLiteDB
                         return string.Format("\"{0}\"", "");
                     return string.Format("\"{0}\"", _data.ToString().Replace("\"", "'"));
             }
-        }        
+        }
 
-        
+
 
         private string propertyInfoToString(PropertyInfo propertyInfo)
         {
@@ -592,10 +628,10 @@ namespace VGD.SQLiteDB
             return false;
         }
 
-        public int Count()
-        {
-            return mainCache.Count;
-        }
+        //public int Count()
+        //{
+        //    return mainCache.Count;
+        //}
 
         public void Dispose()
         {
@@ -616,7 +652,7 @@ namespace VGD.SQLiteDB
             var _p = typeof(T).GetProperty(propertyName);
 
             if (_p == null) throw new Exception("Property " + propertyName + " not found.");
-            
+
             foreach (PropertyInfo _prop in typeof(T).GetProperties())
             {
                 if (attrIsPrimaryKey(_prop))
@@ -625,8 +661,6 @@ namespace VGD.SQLiteDB
                     break;
                 }
             }
-
-
 
             DataTable _result = sqliteDBObj.select(_query);
             object _data = _result.Rows[0][propertyName];

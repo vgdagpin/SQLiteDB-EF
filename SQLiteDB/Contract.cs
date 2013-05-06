@@ -40,11 +40,11 @@ namespace VGD.SQLiteDB
         /// <param name="newEntity">The new entity.</param>
         /// <returns>`0.</returns>
         T Update(T oldEntity, T newEntity);
-        /// <summary>
-        /// Counts this instance.
-        /// </summary>
-        /// <returns>System.Int32.</returns>
-        int Count();
+        ///// <summary>
+        ///// Counts this instance.
+        ///// </summary>
+        ///// <returns>System.Int32.</returns>
+        //int Count();
         /// <summary>
         /// Saves the changes.
         /// </summary>

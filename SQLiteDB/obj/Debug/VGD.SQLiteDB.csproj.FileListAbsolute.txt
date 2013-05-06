@@ -22,6 +22,5 @@ G:\tech2\SQLiteDB-EF\SQLiteDB\bin\Debug\VGD.SQLiteDB.dll
 G:\tech2\SQLiteDB-EF\SQLiteDB\bin\Debug\VGD.SQLiteDB.pdb
 G:\tech2\SQLiteDB-EF\SQLiteDB\bin\Debug\System.Data.SQLite.dll
 G:\tech2\SQLiteDB-EF\SQLiteDB\bin\Debug\System.Data.SQLite.Linq.dll
-G:\tech2\SQLiteDB-EF\SQLiteDB\obj\Debug\VGD.SQLiteDB.csprojResolveAssemblyReference.cache
 G:\tech2\SQLiteDB-EF\SQLiteDB\obj\Debug\VGD.SQLiteDB.dll
 G:\tech2\SQLiteDB-EF\SQLiteDB\obj\Debug\VGD.SQLiteDB.pdb
