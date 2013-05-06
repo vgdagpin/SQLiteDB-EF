@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VGD.SQLiteDB", "SQLiteDB\VGD.SQLiteDB.csproj", "{1BD28FD3-67DC-47A3-981B-9BE2D01E3449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteDB Testing", "SQLiteDB Testing\SQLiteDB Testing.csproj", "{DD535196-BBF3-46E1-9ED6-5998B7FB1C2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BD28FD3-67DC-47A3-981B-9BE2D01E3449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD28FD3-67DC-47A3-981B-9BE2D01E3449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD28FD3-67DC-47A3-981B-9BE2D01E3449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD28FD3-67DC-47A3-981B-9BE2D01E3449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD535196-BBF3-46E1-9ED6-5998B7FB1C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD535196-BBF3-46E1-9ED6-5998B7FB1C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD535196-BBF3-46E1-9ED6-5998B7FB1C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD535196-BBF3-46E1-9ED6-5998B7FB1C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
