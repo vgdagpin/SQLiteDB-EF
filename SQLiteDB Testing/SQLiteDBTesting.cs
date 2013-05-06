@@ -268,7 +268,7 @@ namespace SQLiteDB_Testing
         }
 
         [TestMethod]
-        public void CanGetExcludedPropertyData()
+        public void CanGetExcludedPropertyDataFromAddRange()
         {
             ISQLiteDB _db = SQLiteDB.InitDataFile(TestHelper.GetNewTestPath());
 
@@ -282,6 +282,26 @@ namespace SQLiteDB_Testing
             using (IDBSet<Person> _users = _db.LoadContext<Person>())
             {
                 string _data = (string)_users.GetData(p => p.ID == 1, "About");
+
+                Assert.AreEqual(TestHelper.AHundredPeople[0].About, _data);
+            }
+        }
+
+        [TestMethod]
+        public void CanGetExcludedPropertyDataFromSingleAdd()
+        {
+            ISQLiteDB _db = SQLiteDB.InitDataFile(TestHelper.GetNewTestPath());
+
+            using (IDBSet<Person> _users = _db.LoadContext<Person>())
+            {
+                _users.Add(TestHelper.GetPerson_A);
+
+                _users.SaveChanges();
+            }
+
+            using (IDBSet<Person> _users = _db.LoadContext<Person>())
+            {
+                string _data = (string)_users.GetData(p => p.ID == 16, "About");
 
                 Assert.AreEqual(TestHelper.AHundredPeople[0].About, _data);
             }

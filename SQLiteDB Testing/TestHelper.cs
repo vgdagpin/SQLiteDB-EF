@@ -118,7 +118,8 @@ namespace SQLiteDB_Testing
                     LastName = "Dagpin", 
                     ID = 16, 
                     Birthday = new DateTime(1989, 9, 27) ,
-                    IsWorking = true
+                    IsWorking = true,
+                    About = new string('x', 10000)
                 };
 
                 return _person;

@@ -172,7 +172,9 @@ namespace VGD.SQLiteDB
         {
             addedSingleData.Add(TEntity);
 
-            T _e = TEntity;
+            T _e = Activator.CreateInstance<T>();
+
+            copyPropertyValues(TEntity, _e);
 
             foreach (PropertyInfo _prop in typeof(T).GetProperties())
             {
@@ -647,6 +649,9 @@ namespace VGD.SQLiteDB
         {
             T _t = mainCache.Where(predicate).SingleOrDefault();
 
+            if (_t == null)
+                throw new ArgumentNullException("Not found!");
+
             string _query = "SELECT " + propertyName + " FROM " + typeof(T).Name + " WHERE ";
 
             var _p = typeof(T).GetProperty(propertyName);
@@ -657,7 +662,10 @@ namespace VGD.SQLiteDB
             {
                 if (attrIsPrimaryKey(_prop))
                 {
-                    _query += _prop.Name + " = '" + _prop.GetValue(_t) + "'";
+                    string _propName = _prop.Name;
+                    object _propVal = _prop.GetValue(_t);
+
+                    _query += _propName + " = '" + _propVal + "'";
                     break;
                 }
             }

@@ -7,7 +7,7 @@ using VGD.SQLiteDB.Attributes;
 
 namespace SQLiteDB_Testing
 {
-    public class Person : BaseObject
+    public class Person
     {
         [AutoIncrement]
         public int ID { get; set; }
