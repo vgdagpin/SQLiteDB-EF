@@ -1,0 +1,27 @@
+G:\SQLiteDB-EF\SQLiteDB\bin\Debug\x64\SQLite.Interop.dll
+G:\SQLiteDB-EF\SQLiteDB\bin\Debug\x86\SQLite.Interop.dll
+G:\SQLiteDB-EF\SQLiteDB\bin\Debug\VGD.SQLiteDB.dll
+G:\SQLiteDB-EF\SQLiteDB\bin\Debug\VGD.SQLiteDB.pdb
+G:\SQLiteDB-EF\SQLiteDB\bin\Debug\System.Data.SQLite.dll
+G:\SQLiteDB-EF\SQLiteDB\bin\Debug\System.Data.SQLite.Linq.dll
+G:\SQLiteDB-EF\SQLiteDB\obj\Debug\VGD.SQLiteDB.csprojResolveAssemblyReference.cache
+G:\SQLiteDB-EF\SQLiteDB\obj\Debug\VGD.SQLiteDB.dll
+G:\SQLiteDB-EF\SQLiteDB\obj\Debug\VGD.SQLiteDB.pdb
+D:\Working Directory\SQLiteDB-EF\SQLiteDB\bin\Debug\x64\SQLite.Interop.dll
+D:\Working Directory\SQLiteDB-EF\SQLiteDB\bin\Debug\x86\SQLite.Interop.dll
+D:\Working Directory\SQLiteDB-EF\SQLiteDB\bin\Debug\VGD.SQLiteDB.dll
+D:\Working Directory\SQLiteDB-EF\SQLiteDB\bin\Debug\VGD.SQLiteDB.pdb
+D:\Working Directory\SQLiteDB-EF\SQLiteDB\bin\Debug\System.Data.SQLite.dll
+D:\Working Directory\SQLiteDB-EF\SQLiteDB\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Working Directory\SQLiteDB-EF\SQLiteDB\obj\Debug\VGD.SQLiteDB.dll
+D:\Working Directory\SQLiteDB-EF\SQLiteDB\obj\Debug\VGD.SQLiteDB.pdb
+D:\Working Directory\SQLiteDB-EF\SQLiteDB\obj\Debug\VGD.SQLiteDB.csprojResolveAssemblyReference.cache
+G:\tech2\SQLiteDB-EF\SQLiteDB\bin\Debug\x64\SQLite.Interop.dll
+G:\tech2\SQLiteDB-EF\SQLiteDB\bin\Debug\x86\SQLite.Interop.dll
+G:\tech2\SQLiteDB-EF\SQLiteDB\bin\Debug\VGD.SQLiteDB.dll
+G:\tech2\SQLiteDB-EF\SQLiteDB\bin\Debug\VGD.SQLiteDB.pdb
+G:\tech2\SQLiteDB-EF\SQLiteDB\bin\Debug\System.Data.SQLite.dll
+G:\tech2\SQLiteDB-EF\SQLiteDB\bin\Debug\System.Data.SQLite.Linq.dll
+G:\tech2\SQLiteDB-EF\SQLiteDB\obj\Debug\VGD.SQLiteDB.csprojResolveAssemblyReference.cache
+G:\tech2\SQLiteDB-EF\SQLiteDB\obj\Debug\VGD.SQLiteDB.dll
+G:\tech2\SQLiteDB-EF\SQLiteDB\obj\Debug\VGD.SQLiteDB.pdb

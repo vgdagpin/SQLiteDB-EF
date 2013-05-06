@@ -1,0 +1,20 @@
+D:\Working Directory\SQLiteDB-EF\SQLiteDB Testing\obj\Debug\SQLiteDB Testing.csprojResolveAssemblyReference.cache
+D:\Working Directory\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\x64\SQLite.Interop.dll
+D:\Working Directory\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\x86\SQLite.Interop.dll
+D:\Working Directory\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\SQLiteDB Testing.dll
+D:\Working Directory\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\SQLiteDB Testing.pdb
+D:\Working Directory\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\VGD.SQLiteDB.dll
+D:\Working Directory\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\System.Data.SQLite.dll
+D:\Working Directory\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\VGD.SQLiteDB.pdb
+D:\Working Directory\SQLiteDB-EF\SQLiteDB Testing\obj\Debug\SQLiteDB Testing.dll
+D:\Working Directory\SQLiteDB-EF\SQLiteDB Testing\obj\Debug\SQLiteDB Testing.pdb
+G:\tech2\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\x64\SQLite.Interop.dll
+G:\tech2\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\x86\SQLite.Interop.dll
+G:\tech2\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\SQLiteDB Testing.dll
+G:\tech2\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\SQLiteDB Testing.pdb
+G:\tech2\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\VGD.SQLiteDB.dll
+G:\tech2\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\System.Data.SQLite.dll
+G:\tech2\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\VGD.SQLiteDB.pdb
+G:\tech2\SQLiteDB-EF\SQLiteDB Testing\obj\Debug\SQLiteDB Testing.csprojResolveAssemblyReference.cache
+G:\tech2\SQLiteDB-EF\SQLiteDB Testing\obj\Debug\SQLiteDB Testing.dll
+G:\tech2\SQLiteDB-EF\SQLiteDB Testing\obj\Debug\SQLiteDB Testing.pdb
