@@ -18,3 +18,23 @@ G:\tech2\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\VGD.SQLiteDB.pdb
 G:\tech2\SQLiteDB-EF\SQLiteDB Testing\obj\Debug\SQLiteDB Testing.csprojResolveAssemblyReference.cache
 G:\tech2\SQLiteDB-EF\SQLiteDB Testing\obj\Debug\SQLiteDB Testing.dll
 G:\tech2\SQLiteDB-EF\SQLiteDB Testing\obj\Debug\SQLiteDB Testing.pdb
+E:\Vincent Files\GitHub\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\x64\SQLite.Interop.dll
+E:\Vincent Files\GitHub\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\x86\SQLite.Interop.dll
+E:\Vincent Files\GitHub\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\SQLiteDB Testing.dll
+E:\Vincent Files\GitHub\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\SQLiteDB Testing.pdb
+E:\Vincent Files\GitHub\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\VGD.SQLiteDB.dll
+E:\Vincent Files\GitHub\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\System.Data.SQLite.dll
+E:\Vincent Files\GitHub\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\VGD.SQLiteDB.pdb
+E:\Vincent Files\GitHub\SQLiteDB-EF\SQLiteDB Testing\obj\Debug\SQLiteDB Testing.csprojResolveAssemblyReference.cache
+E:\Vincent Files\GitHub\SQLiteDB-EF\SQLiteDB Testing\obj\Debug\SQLiteDB Testing.dll
+E:\Vincent Files\GitHub\SQLiteDB-EF\SQLiteDB Testing\obj\Debug\SQLiteDB Testing.pdb
+H:\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\x64\SQLite.Interop.dll
+H:\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\x86\SQLite.Interop.dll
+H:\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\SQLiteDB Testing.dll
+H:\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\SQLiteDB Testing.pdb
+H:\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\VGD.SQLiteDB.dll
+H:\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\System.Data.SQLite.dll
+H:\SQLiteDB-EF\SQLiteDB Testing\bin\Debug\VGD.SQLiteDB.pdb
+H:\SQLiteDB-EF\SQLiteDB Testing\obj\Debug\SQLiteDB Testing.csprojResolveAssemblyReference.cache
+H:\SQLiteDB-EF\SQLiteDB Testing\obj\Debug\SQLiteDB Testing.dll
+H:\SQLiteDB-EF\SQLiteDB Testing\obj\Debug\SQLiteDB Testing.pdb

@@ -257,10 +257,7 @@ namespace SQLiteDB_Testing
                 _users.AddRange(TestHelper.AHundredPeople);
 
                 _users.SaveChanges();
-            }
 
-            using (IDBSet<Person> _users = _db.LoadContext<Person>())
-            {
                 Person _last = _users.Last();
 
                 Assert.AreEqual(TestHelper.AHundredPeople.Count, _last.ID);
